@@ -1,0 +1,11 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_test/flutter_test.dart';
+
+import 'package:notes_app/main.dart';
+
+void main() {
+  testWidgets('App starts successfully', (WidgetTester tester) async {
+    main();
+    await tester.pump();
+  });
+}
